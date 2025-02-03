@@ -1,0 +1,14 @@
+:root {
+    /*  CORES   */
+    --azul-clarissimo: #91D8F8;
+    --azul-claro: #5BB9E9;
+    --azul-medio: #0084B7;
+    --azul-escuro: #0F1A4B;
+    --laranja: #FF8A00;
+    --laranja-claro: #FEA741;
+    --bg-opacity: rgba(255, 255, 255, 0.2);
+
+    /*  FONTES  */
+    --fonte-titulo: "Plus Jakarta Sans", sans-serif;
+    --fonte-texto: "Inter", sans-serif;
+}
