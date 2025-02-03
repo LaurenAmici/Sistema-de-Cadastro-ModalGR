@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODALGR - Tabela dados cadastrados</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/vars.css">
+    <link rel="stylesheet" href="./styles/styles-tabela.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+</head>
+
+<body>
+    <header class="navigation">
+    <nav class="menu_navigation">
+        <div>
+            <div class="logo">
+            <a href=""><img src="./styles/assets/logo-modalgr.png" alt="Logo da ModalGR"></a>
+            </div>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Soluções</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Sobre a empresa</a></li>
+            </ul>
+
+            <button class="language_button">
+                <span class="fa fa-globe"></span>
+                <span>Português BR</span>
+            </button>
+        </div>
+    </nav>
+    <h1>Seja bem-vindo à <span class="ModalGR">Modal GR!</span></h1>
+    <h2>Confira abaixo seus dados cadastrados.</h2>
+    </header>
+    
+    <main>
+    <div class="wrapper">
+    <h3>Dados cadastrados</h3>
+        <div class="data_table">
+        <table>
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Idade</th>
+                <th>CPF</th>
+                <th>CEP</th>
+                <th>Logradouro</th>
+                <th>Bairro</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+                <th>Número</th>
+            </tr>
+            </thead>
+            <tbody id="tabelaCadastro"></tbody>
+        </table>        
+        </div>
+    </div>
+    </main>
+
+    <script src="script-tabela.js"></script>
+</body>
+
+</html>
